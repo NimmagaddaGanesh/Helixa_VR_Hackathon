@@ -1,0 +1,38 @@
+ <main class="main-content">
+                <!-- Dashboard Section -->
+                <div id="dashboard" class="content-section active">
+                    <div class="dashboard-header">
+                        <h1>Welcome back, <span id="userName">User</span></h1>
+                        <p>Here's your health overview for today</p>
+                    </div>
+
+                    <div id="welcomeSection" class="welcome-section">
+                        <h2>Start Your Health Journey</h2>
+                        <p>Let's get to know you better to personalize your health experience</p>
+                        <button class="btn-journey" onclick="showDetailsModal()">Start Your Journey</button>
+                    </div>
+
+                    <div id="statsSection" style="display: none;">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <h3>Health Records</h3>
+                                <div class="number">0</div>
+                                <p>Total records</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>Active Medications</h3>
+                                <div class="number">0</div>
+                                <p>Current medications</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>BMI</h3>
+                                <div class="number" id="bmiValue">-</div>
+                                <p>Body Mass Index</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Health Records Section -->
+                <div id="health-records" class="content-section">
+                    <div class="dashboar
